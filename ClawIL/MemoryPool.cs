@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClawIL
 {
-    class ClawMemory
+    public class MemoryPool
     {
     }
 }

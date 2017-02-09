@@ -5,7 +5,8 @@ using System.Text;
 
 namespace ClawIL
 {
-    public class Class1
+    public interface ICodeStorage
     {
+        
     }
 }
