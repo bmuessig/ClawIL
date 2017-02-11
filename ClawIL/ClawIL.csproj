@@ -46,6 +46,7 @@
     <Compile Include="GlobalConstants.cs" />
     <Compile Include="IDataMemory.cs" />
     <Compile Include="IProcessor.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="MetaHeader.cs" />
     <Compile Include="ModuleSlot.cs" />
     <Compile Include="Processor16.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="Standard\ComputerHardware.cs" />
     <Compile Include="StreamMemory.cs" />
     <Compile Include="Minimal\MinimalHardware.cs" />
+    <Compile Include="CodeReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CLR-Additions\CLR-Additions.csproj">
