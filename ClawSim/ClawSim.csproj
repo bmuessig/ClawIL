@@ -75,6 +75,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Sample.csm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Clawsemble\Clawsemble\Clawsemble.csproj">
+      <Project>{13BC8D55-6D9D-436D-8F8C-252AF0D5F660}</Project>
+      <Name>Clawsemble</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClawIL\ClawIL.csproj">
+      <Project>{65B522BC-69F7-4CF3-9DE2-918798457F65}</Project>
+      <Name>ClawIL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
